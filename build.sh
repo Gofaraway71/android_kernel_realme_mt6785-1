@@ -10,7 +10,7 @@ export ARCH=arm64
 export CC_FOR_BUILD=clang
 export KBUILD_BUILD_HOST=MARK•DEVS
 export KBUILD_BUILD_USER="AbzRaider"
-# git clone   https://github.com/rama982/clang  clang
+git clone   https://github.com/rama982/clang  clang
 
 [ -d "out" ] && rm -rf out || mkdir -p out
 
