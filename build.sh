@@ -7,6 +7,7 @@ source ~/.bashrc && source ~/.profile
 export LC_ALL=C && export USE_CCACHE=1
 ccache -M 100G
 export ARCH=arm64
+export CC_FOR_BUILD=clang
 export KBUILD_BUILD_HOST=MARK•DEVS
 export KBUILD_BUILD_USER="AbzRaider"
 # git clone   https://github.com/rama982/clang  clang
